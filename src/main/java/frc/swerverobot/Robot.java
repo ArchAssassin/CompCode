@@ -18,7 +18,7 @@ public class Robot extends TimedRobot {
 
     @Override
     public void autonomousInit() {
-        robotContainer.getShooterSubsystem().setShooterSpeed(0.80);
+        robotContainer.getShooterSubsystem().setShooterSpeed(0.75);
         Timer.delay(3);
         robotContainer.getFeederSubsystem().setFeederSpeed(-1);
         robotContainer.getIndexSubsystem().setIndexSpeed(1);
