@@ -123,6 +123,25 @@ public class RobotContainer {
        // secondaryController.getRightJoystickButton().whenPressed(new FeederOff(feederSubsystem));
 
     }
+    public DrivetrainSubsystem getDrivetrainSubsystem() {
+        return drivetrain;
+    }
+
+    public FeederSubsystem getFeederSubsystem() {
+        return feederSubsystem;
+    }
+
+    public IntakeSubsystem getIntakeSubsystem(){
+        return intakeSubsystem;
+    }
+
+    public ShooterSubsystem getShooterSubsystem() {
+        return shooterSubsystem;
+    }
+    public IndexSubsystem getIndexSubsystem(){
+            return indexSub;
+    }
+
 
 
 }
